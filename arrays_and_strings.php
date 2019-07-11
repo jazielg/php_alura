@@ -46,11 +46,15 @@ foreach ($contasCorrentes as $cpf => $conta) {
 }
 
 // PHP Arrays
-sizeof(array1); // Tamanho do Array
-sort(array1); // Ordenar elementos do Array
-explode(", ", string1); // Transformar string em Array
-implode(", ", array1); // Transformar Array em string
-array_diff(array1, array2); // Compara os elementos do array, trazendo os diferentes
-array_merge(array1, array2); // Expande o primeiro array com os elementos do segundo array
-array_combine(keys, values); // Criar um array associativo, sendo os primeiro a chave e segundo os valores
-array_key_exists(key, array1); // Verifica se uma chave existe no array
+$array1 = ['a', 'b', 'c'];
+$array2 = ['d', 'e', 'f'];
+$string1 = 'A, B, C, D';
+
+echo PHP_EOL . 'sizeof' . PHP_EOL;           print_r(sizeof($array1)); // Tamanho do Array
+echo PHP_EOL . 'sort' . PHP_EOL;             print_r(sort($array1)); // Ordenar elementos do Array
+echo PHP_EOL . 'explode' . PHP_EOL;          print_r(explode(", ", $string1)); // Transformar string em Array
+echo PHP_EOL . 'implode' . PHP_EOL;          print_r(implode(", ", $array1)); // Transformar Array em string
+echo PHP_EOL . 'array_diff' . PHP_EOL;       print_r(array_diff($array1, $array2)); // Compara os elementos do array, trazendo os diferentes
+echo PHP_EOL . 'array_merge' . PHP_EOL;      print_r(array_merge($array1, $array2)); // Expande o primeiro array com os elementos do segundo array
+echo PHP_EOL . 'array_combine' . PHP_EOL;    print_r(array_combine($array1, $array2)); // Criar um array associativo, sendo os primeiro a chave e segundo os valores
+echo PHP_EOL . 'array_key_exists' . PHP_EOL; print_r(array_key_exists('a', $array1)); // Verifica se uma chave existe no array

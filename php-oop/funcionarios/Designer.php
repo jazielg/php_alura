@@ -5,7 +5,8 @@ namespace funcionarios;
 use abstracts\Funcionario;
 use interfaces\Adicional;
 
-class Designer extends Funcionario implements Adicional{
+class Designer extends Funcionario implements Adicional
+{
 
     public function getBonificacao() 
     {

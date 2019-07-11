@@ -2,6 +2,7 @@
 
 namespace interfaces;
 
-interface Adicional {
+interface Adicional 
+{
     public function horasExtras(float $valorPorHora, int $horas) : float;
 }

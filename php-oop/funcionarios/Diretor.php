@@ -4,7 +4,8 @@ namespace funcionarios;
 
 use abstracts\Funcionario;
 
-class Diretor extends Funcionario{
+class Diretor extends Funcionario
+{
 
     public function getBonificacao() 
     {

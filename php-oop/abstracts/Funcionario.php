@@ -2,7 +2,8 @@
 
 namespace abstracts;
 
-abstract class Funcionario {
+abstract class Funcionario 
+{
     
     private $nome;
     private $cpf;
