@@ -1,0 +1,30 @@
+{
+    "name": "jaziel/alura-composer",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "jazielg",
+            "email": "jazielgj1995@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^4.3",
+        "symfony/css-selector": "^4.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./Teste.php"
+        ],
+        "files": [
+            "./functions.php"
+        ],
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
