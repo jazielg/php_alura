@@ -20,6 +20,8 @@ foreach ($cursos as $curso) {
 }
 
 // Iniciar: composer init
+// composer list
+// composer --help
 
 // Repositorio principal do composer https://packagist.org/
 // package-name: <nome_criador/nome_pacote>
@@ -37,3 +39,7 @@ foreach ($cursos as $curso) {
 // composer require --dev "squizlabs/php_codesniffer=*"
 // vendor/bin/phpcs -h
 // vendor/bin/phpcs --standard=PSR12 src/
+
+// https://getcomposer.org/doc/articles/scripts.md
+// Executar scripts: composer nome_script
+// Executar uma sequencia de scripts: scripts: ['@script1', '@script2']

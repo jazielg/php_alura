@@ -26,5 +26,16 @@
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "*"
+    },
+    "scripts": {
+        "cs": "phpcs --standard=PSR12 src/",
+        "ls": "ls src",
+        "check": [
+            "@cs"
+        ]
+    },
+    "scripts-descriptions": {
+        "cs": "Verifica se o codigo dentro da pasta src esta padronizado com o padrão PSR-4.",
+        "ls": "Executar comandos do SO. Listar arquivos da pasta src."
     }
 }
