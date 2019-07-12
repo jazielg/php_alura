@@ -42,4 +42,8 @@ foreach ($cursos as $curso) {
 
 // https://getcomposer.org/doc/articles/scripts.md
 // Executar scripts: composer nome_script
-// Executar uma sequencia de scripts: scripts: ['@script1', '@script2']
+// Executar uma sequencia de scripts: run-scripts: ['@script1', '@script2']
+
+// Versões
+// https://semver.org/
+// https://getcomposer.org/doc/articles/versions.md
